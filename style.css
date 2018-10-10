@@ -1,0 +1,64 @@
+body{
+    background-color: #a9d0da;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin: 20px;
+    font-size: 28px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card{
+    max-width: 489px;
+}
+
+.card-text{
+    height: 76px;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+.keys,.enter-key{
+    background-image: url('images/keyboard-key.png');
+    background-position: center;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+}
+
+.space-key{
+    background-image: url('images/space-bar-key.png');
+    background-position: center;
+    background-size: cover;
+    width: 93px;
+    height: 48px;
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-family: 'Arvo', serif;
+    font-size: 17px;
+}
+
+.key-container{
+    padding: 16px;
+}
+
+.key-board{
+   text-align: center;
+}
